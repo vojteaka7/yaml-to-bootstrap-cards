@@ -17,18 +17,18 @@
             {% endif %}
             
             <div class="card m-2 col p-0">
-                {% if card.image %}
-                    <img class="card-img-top" src="{{ card.image }}">
+                {% if card._image_ %}
+                    <img class="card-img-top" src="{{ card._image_ }}">
                 {% endif %}
 
-                {% if card.name %}
-                    <div class="card-header">{{ card.name }}</div>
+                {% if card._name_ %}
+                    <div class="card-header">{{ card._name_ }}</div>
                 {% endif %}
                     
                     <div class="card-body">
                         <dl>
                             {% for key, value in card.items() %}
-                                {% if not key in ['name', 'image'] %}
+                                {% if not key in ['_name_', '_image_'] %}
                                 
                                     <dt>{{ key }}</dt>
                                     <dd>{{ value }}</dd>

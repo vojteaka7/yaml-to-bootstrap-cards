@@ -1,12 +1,11 @@
 ---
-- name: Red
-  image: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD//gAfQ29tcHJlc3NlZCBieSBqcGVnLXJlY29tcHJlc3P
-  hex: #ff0000
-  meaning: red is the symbol of life or danger
-- name: Cyan
-  image: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD//gATQ3JlYXRlZCB3aXRoIEdJTVD
-  hex: #00ffff
-  meaning: cyan is the color of the sky
-- image: https://thispersondoesnotexist.com
+- _name_: random person
+  _image_: https://thispersondoesnotexist.com
   source: https://thispersondoesnotexist.com
-
+- _name_: computer
+  _image_: https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU
+  source: picsum.photos
+- _name_: a book
+  good... : for reading, as fuel
+  color: red
+...
