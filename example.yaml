@@ -1,0 +1,12 @@
+---
+- name: Red
+  image: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD//gAfQ29tcHJlc3NlZCBieSBqcGVnLXJlY29tcHJlc3P
+  hex: #ff0000
+  meaning: red is the symbol of life or danger
+- name: Cyan
+  image: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD//gATQ3JlYXRlZCB3aXRoIEdJTVD
+  hex: #00ffff
+  meaning: cyan is the color of the sky
+- image: https://thispersondoesnotexist.com
+  source: https://thispersondoesnotexist.com
+
